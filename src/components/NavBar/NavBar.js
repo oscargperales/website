@@ -1,34 +1,32 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import Navbar from "react-bootstrap/Navbar";
 import Container from "react-bootstrap/Container";
-import {AiOutlineMenu} from "react-icons/ai"
+import { AiOutlineMenu } from "react-icons/ai"
 
 import NavBarItems from "./NavBaritems";
 import "./NavBar.css"
 
 const NavBar = () => {
-
     const [expanded, setExpanded] = useState(false);
 
     const handleSelection = () => {
-        setExpanded(false)
+        setExpanded(false);
     }
 
-
     return (
-        <Navbar className={"navbar"} expand={'sm'} expanded={expanded}>
+        <Navbar className={"navbar"} expand='sm' expanded={expanded}>
             <Container fluid>
                 <Navbar.Toggle
                     aria-controls='responsive-navbar-nav'
-                    onClick={() => setExpanded(expanded ? false : "expanded")}>
+                    onClick={() => setExpanded(expanded ? false : true)}>
                     <AiOutlineMenu className="toggle-icon"/>
                 </Navbar.Toggle>
                 <Navbar.Collapse id='responsive-navbar-nav'>
-                    <NavBarItems onSelection={handleSelection}/>
+                    <NavBarItems onSelection={handleSelection} />
                 </Navbar.Collapse>
             </Container>
-        </Navbar>)
-
+        </Navbar>
+    );
 }
 
-export default NavBar
+export default NavBar;
