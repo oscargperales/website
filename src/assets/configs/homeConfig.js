@@ -1,4 +1,4 @@
-import {LiaTruckMovingSolid} from "react-icons/li";
+import {LiaTruckMovingSolid} from "react-icons/lia";
 import {MdOutlineManageAccounts} from "react-icons/md";
 import {SiCodenewbie} from "react-icons/si";
 

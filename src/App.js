@@ -7,9 +7,10 @@ import Skills from "./pages/Skills/Skills";
 import ScrollToTop from "./components/ScrollToTop";
 import Footer from "./components/Footer/Footer";
 import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 import React from 'react'
+
 
 
 

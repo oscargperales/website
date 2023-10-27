@@ -1,5 +1,5 @@
 import {FiGithub} from "react-icons/fi";
-import {SiSocialLinkedin} from "react-icons/si";
+import {SiLinkedin} from "react-icons/si";
 import React from "react";
 
 const footerConfig = {
@@ -16,7 +16,7 @@ const footerConfig = {
       url: "https://www.linkedin.com/in/oscar-gperales/",
       className: "social-icon",
       target: "_blank",
-      icon: <SiSocialLinkedin size={75}/>
+      icon: <SiLinkedin size={75}/>
     }
   ]
 }

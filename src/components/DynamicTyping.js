@@ -1,5 +1,5 @@
 import React from "react";
-import Typewriter from "typerwriter-effect";
+import Typewriter from "typewriter-effect";
 
 
 
