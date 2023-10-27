@@ -3,7 +3,7 @@ import Navbar from "react-bootstrap/Navbar";
 import Container from "react-bootstrap/Container";
 import {AiOutlineMenu} from "react-icons/ai"
 
-import NavBarItems from "./NavBarItems";
+import NavBarItems from "./NavBaritems";
 import "./NavBar.css"
 
 const NavBar = () => {
