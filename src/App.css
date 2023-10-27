@@ -1,5 +1,8 @@
+/* Change the background color and adjust padding for the entire application */
 .App {
   position: relative;
   min-height: 100vh;
+  background-color: #263238; /* Change the background color to the primary background color */
   padding-bottom: 6rem;
+  color: #f5f5f5; /* Match the text color */
 }

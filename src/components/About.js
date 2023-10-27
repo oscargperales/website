@@ -1,8 +1,6 @@
 import React from "react";
 
 const About = (props) => {
-  const { about, aboutExit } = props;
-
   return (
     <section id="about">
       <div className="about-card" style={{ backgroundColor: "#263238" }}>
@@ -29,16 +27,16 @@ const About = (props) => {
           className="card-body font-trebuchet text-justify ml-3 mr-3"
           style={{
             height: "auto",
-            fontSize: "120%", // Corrected typo here
-            lineHeight: "138",
+            fontSize: "120%",
+            lineHeight: "1.5",
             backgroundColor: "#F6F6F6",
             color: "#8e8d8a",
             padding: "2rem",
           }}
         >
-          {about}
+          {props.about.start}
           <br />
-          {aboutExit} {/* Corrected variable name here */}
+          {props.about.exit}
         </div>
       </div>
     </section>

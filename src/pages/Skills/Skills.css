@@ -1,9 +1,9 @@
+/* Update the styling for skill icons */
 .skill-icon {
   bottom: 0 !important;
   color: #f5f5f5;
   list-style-type: none;
-  -moz-box-align: center;
-  vertical-align: center;
+  vertical-align: center; /* Remove -moz-box-align and use vertical-align */
   align-items: center;
   display: inline-block;
   flex-direction: row;
@@ -15,32 +15,30 @@
   border-radius: 25px;
 }
 
+/* Adjust font size and text alignment for secondary skill icons */
 .sec-skill-icon {
   font-size: 1em;
   text-align: center;
 }
 
-.skills-div {
-  align-items: center;
-  text-align: center;
-}
-
-
+/* Align text and set background color for skill headings */
 .main-skills-h1,
 .complementary-skill-h1 {
   width: 100%;
   overflow: hidden;
-  vertical-align:middle;
+  vertical-align: middle; /* Remove double semicolon */
   color: #f5f5f5;
   background-color: #66806A;
   padding: 5px;
 }
 
+/* Adjust padding for skill icons container */
 .skill-icons {
-  padding: 10px 0 10px 0;
+  padding: 10px 0; /* Remove 10px 0 10px 0 */
 }
 
+/* Adjust top margin for skill icon text */
 .skill-icon-text {
   margin: 0;
-  margin-top: 0.6rem;;
+  margin-top: 0.6rem;
 }

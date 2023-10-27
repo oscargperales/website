@@ -7,13 +7,15 @@ body {
     font-family: "Raleway", serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background-color: #99A799;
+    background-color: #263238; /* Change background color to the primary background color */
 }
 
 /* Set a maximum width for elements with class "about-card" */
 .about-card {
     max-width: 1200px;
     width: 90%;
+    background-color: #F6F6F6; /* Match the secondary background color */
+    color: #8e8d8a; /* Match the text color */
 }
 
 /* Apply responsive styles for smaller screens (max-width: 499px) */
