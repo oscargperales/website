@@ -7,15 +7,16 @@ body {
     font-family: "Raleway", serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background-color: #263238; /* Change background color to the primary background color */
+    background-color: #ccdce4; /* Change background color to the primary background color */
+    color: #f5f5f5; /* Match the text color */
 }
 
 /* Set a maximum width for elements with class "about-card" */
 .about-card {
     max-width: 1200px;
     width: 90%;
-    background-color: #F6F6F6; /* Match the secondary background color */
-    color: #8e8d8a; /* Match the text color */
+    background-color: #153751; /* Match the secondary background color */
+    color: #7c9cc4; /* Match the text color */
 }
 
 /* Apply responsive styles for smaller screens (max-width: 499px) */
@@ -33,7 +34,7 @@ body {
 
     /* Reduce font size and margin for elements with class "Typewriter" */
     .Typewriter {
-        font-size: 0.6rem;
+        font-size: 0.6em; /* Update the font size */
         margin-bottom: 2rem;
     }
 }

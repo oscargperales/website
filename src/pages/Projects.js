@@ -1,7 +1,7 @@
 import CardItem from "../components/Cards/CardItem";
 import "../components/Cards/CardItem.css";
 import projectConfig from "../assets/configs/projectConfig"
-import "../assets/images/2014_FHD.png"
+import "../assets/images/jcole.jpeg"
 import React from 'react'
 
 const Projects = () => {

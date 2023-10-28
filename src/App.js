@@ -22,11 +22,12 @@ function App() {
         <NavBar />
         <ScrollToTop />
         <Routes>
-          <Route path="/" element={<Home />} /> {/* Use "/" for the home page */}
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/blogs" element={<Blogs />} />
-          <Route path="/skills" element={<Skills />} />
-        </Routes>
+  <Route path="/website" element={<Home />} /> {/* Use "/website" for the home page */}
+  <Route path="/projects" element={<Projects />} />
+  <Route path="/blogs" element={<Blogs />} />
+  <Route path="/skills" element={<Skills />} />
+</Routes>
+
         <Footer />
       </div>
     </Router>

@@ -1,21 +1,21 @@
 .home-header h1 {
-  color: #f5f5f5; /* Update text color */
+  color: #767a81; /* Light gray for text */
   font-size: 3em;
 }
 
 .main-name {
-  color: #F6F2D4; /* Update text color */
+  color: #829aaf; /* Light blue-gray for text */
 }
 
 .Typewriter__wrapper {
   font-size: 2.8em;
-  color: #f5f5f5; /* Update text color */
+  color: #8f96a1; /* Light gray for text */
   font-weight: 600;
 }
 
 .Typewriter__cursor {
   font-size: 2.4em;
-  color: #f5f5f5; /* Update text color */
+  color: #727579; /* Light gray for text */
 }
 
 .about {
@@ -29,11 +29,11 @@
   margin-right: auto;
 }
 
-/* Apply the background color to .card-header and .card-body */
+/* Apply digital-style background color to .card-header and .card-body */
 .card-header,
 .card-body {
-  background-color: #263238;
-  color: #f5f5f5;
+  background-color: #939698; /* Dark blue-gray for the background */
+  color: #8d939c; /* Light gray for text */
   margin: auto;
   display: flex;
   justify-content: center;

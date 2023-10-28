@@ -1,4 +1,4 @@
-import cover from "../images/2014_FHD.png";
+import cover from "../images/jcole.jpeg";
 import { TbBrandGithubFilled } from "react-icons/tb";
 import React from 'react';
 

@@ -2,7 +2,9 @@
 .App {
   position: relative;
   min-height: 100vh;
-  background-color: #263238; /* Change the background color to the primary background color */
+  background-color: #525d6c; /* Dark blue-gray for the background */
   padding-bottom: 6rem;
-  color: #f5f5f5; /* Match the text color */
+  color: #B8C2D1; /* Light gray for text */
 }
+
+/* ... (rest of your existing styles) */

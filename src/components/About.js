@@ -1,42 +1,24 @@
 import React from "react";
+import "./About.css"; // Make sure to create a separate CSS file for styling
+import profileImage from "../assets/images/profile.jpeg"; // Import your profile image
 
 const About = (props) => {
   return (
     <section id="about">
-      <div className="about-card" style={{ backgroundColor: "#263238" }}>
-        <div className="card-header">
-          <span
-            className="iconify"
-            data-icon="emojione:red-circle"
-            data-inline="false"
-          />{" "}
-          &nbsp;{" "}
-          <span
-            className="iconify"
-            data-icon="twemoji:yellow-circle"
-            data-inline="false"
-          />{" "}
-          &nbsp;{" "}
-          <span
-            className="iconify"
-            data-icon="twemoji:green-circle"
-            data-inline="false"
-          />
-        </div>
-        <div
-          className="card-body font-trebuchet text-justify ml-3 mr-3"
-          style={{
-            height: "auto",
-            fontSize: "120%",
-            lineHeight: "1.5",
-            backgroundColor: "#F6F6F6",
-            color: "#8e8d8a",
-            padding: "2rem",
-          }}
-        >
-          {props.about.start}
-          <br />
-          {props.about.exit}
+      <div className="about-card">
+        <div className="card-content">
+          <div className="profile-image">
+            <img
+              src={profileImage} // Use the imported profile image
+              alt="Your Name"
+              className="profile-img"
+            />
+          </div>
+          <div className="text-content">
+            <h2 className="about-title">About Me</h2>
+            <p className="about-text">{props.about.start}</p>
+            <p className="about-text">{props.about.exit}</p>
+          </div>
         </div>
       </div>
     </section>
