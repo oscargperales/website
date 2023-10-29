@@ -7,6 +7,7 @@ import {
   SiHtml5,
   SiTableau,
   SiDjango,
+  SiJupyter,
 } from "react-icons/si";
 import { BsGit, BsTerminal } from "react-icons/bs";
 
@@ -20,6 +21,12 @@ const skillsConfig = {
     },
     {
       id: "skills-1",
+      className: "skill-icon",
+      icon: <SiJupyter size={50} />,
+      text: "Jupyter Notebook",
+    },
+    {
+      id: "skills-2",
       className: "skill-icon",
       icon: <BsGit size={50} />,
       text: "Git",

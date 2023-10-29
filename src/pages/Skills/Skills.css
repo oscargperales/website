@@ -43,3 +43,10 @@
   margin: 0;
   margin-top: 0.6rem;
 }
+
+/* Add styles for center-aligned text */
+.center-text {
+  text-align: center;
+  margin: 2rem 0; /* Adjust the margin as needed */
+  color: #000000;
+}
