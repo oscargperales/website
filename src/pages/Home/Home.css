@@ -33,7 +33,7 @@
 .card-header,
 .card-body {
   background-color: #939698; /* Dark blue-gray for the background */
-  color: #8d939c; /* Light gray for text */
+  color: #f7f7f7; /* Light gray for text */
   margin: auto;
   display: flex;
   justify-content: center;

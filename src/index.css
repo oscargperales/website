@@ -16,7 +16,7 @@ body {
     max-width: 1200px;
     width: 90%;
     background-color: #153751; /* Match the secondary background color */
-    color: #7c9cc4; /* Match the text color */
+    color: #fefefe; /* Match the text color */
 }
 
 /* Apply responsive styles for smaller screens (max-width: 499px) */

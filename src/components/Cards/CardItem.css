@@ -7,7 +7,7 @@
 }
 
 .card {
-  background: linear-gradient(to bottom, #f0f3f2, #FFFFFF, #0b140b); /* Gradient with Mexican flag colors */
+  background: linear-gradient(to bottom, #f0f3f2, #FFFFFF, #0b140b);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 8px 10px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   display: flex;
@@ -46,16 +46,18 @@
 }
 
 .card__title {
+  font-size: 1rem;
   line-height: 1.8rem;
   margin-bottom: 0.8rem;
   text-align: center;
-  color: #FFFFFF; /* White text color */
+  color: #FFFFFF;
 }
 
 .card__description {
+  font-size: 0.875rem;
   line-height: 1.5rem;
   padding-bottom: 5px;
-  color: #FFFFFF; /* White text color */
+  color: #FFFFFF;
 }
 
 @media screen and (max-width: 499px) {
@@ -65,8 +67,8 @@
 }
 
 .card__line {
-  border-top: 1px dotted #FFFFFF; /* White dotted line */
-  background: #FF0000; /* Red background color */
+  border-top: 1px dotted #FFFFFF;
+  background: #FF0000;
   width: 90%;
   margin: auto;
   position: absolute;
@@ -75,12 +77,12 @@
 
 .card__btn {
   transition: 0.2s;
-  color: #FFFFFF; /* White text color */
-  padding-right: 1rem;
+  color: #FFFFFF;
+  padding: 0rem 0.5rem; /* Adjust the padding here */
 }
 
 .card__btn:hover {
-  color: #009000; /* Green text color on hover */
+  color: #10df10;
   transform: scale(1.2);
 }
 
@@ -96,5 +98,29 @@
 
 .card__footer li {
   display: inline-flex;
-  color: #FFFFFF; /* White text color */
+  color: #FFFFFF;
+}
+
+.card__completion-state {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2rem;
+  background-color: #0e810e;
+  color: white;
+  font-weight: bold;
+  text-transform: lowercase;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 30px;
+  border-radius: 70%;
+  bottom: 0;
+  font-size: 0.8rem;
+}
+
+.in-progress {
+  background-color: #cf802c;
+  font-size: 0.8rem;
 }
