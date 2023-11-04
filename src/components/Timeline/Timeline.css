@@ -26,10 +26,12 @@
 }
 
 .vertical-timeline-element-content-arrow {
-  border-right: 7px solid #333E4D; /* Match the background color */
+  border-right: 7px solid #2b333e; /* Match the background color */
 }
 
 .vertical-timeline-element-date {
-  color: #fefefe; /* Light gray for the date color */
+  color: #ffffff; /* Light gray for the date color */
   margin: 1rem 0; /* Adjust margin */
+  font-size: 2em; /* Adjust the font size as needed */
+  font-weight: bold; /* Make the text bold */
 }
