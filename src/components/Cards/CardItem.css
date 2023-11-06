@@ -7,7 +7,7 @@
 }
 
 .card {
-  background: linear-gradient(to bottom, #f0f3f2, #FFFFFF, #0b140b);
+  background: linear-gradient(to bottom, #000000, #7e7c7c, #0b140b);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 8px 10px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   display: flex;
@@ -121,6 +121,6 @@
 }
 
 .in-progress {
-  background-color: #cf802c;
+  background-color: #49baa2;
   font-size: 0.8rem;
 }

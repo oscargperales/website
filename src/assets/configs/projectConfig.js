@@ -21,7 +21,7 @@ const projectConfig = [
   },
     {
     id: "project-2",
-    title: "J Cole Album Analysis",
+    title: "Exploring J. Cole's Studio Albums through Unsupervised Learning Analysis",
     completed: false, // This project is in progress
      links: [
       {
@@ -31,7 +31,7 @@ const projectConfig = [
       },
     ],
     image: cover,
-    description: "Analyzed J. Cole's studio albums, exploring music and song connections.",
+    description: "J. Cole's studio album data was pulled by using Spotify's API, explored music and song connections through K-means clustering.",
     target: "_blank",
   },
   {
